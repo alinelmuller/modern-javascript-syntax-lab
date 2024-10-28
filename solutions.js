@@ -14,6 +14,7 @@ const multipliedNums = nums.map((num) => {
 console.log(multipliedNums); 
 
 
+
 /*************************************************
 * Exercise 2: Array destructuring
 ************************************************/
@@ -46,6 +47,7 @@ const { make, model } = car;
 console.log(make);
 console.log(model);
 
+
 /******************************************************
 * Exercise 4: Applying the spread operator on arrays
 ******************************************************/
@@ -58,6 +60,7 @@ const pizzaToppings2 = ['Pineapple', 'Olives', 'Anchovies'];
 const controversialPizzaToppings = [...pizzaToppings2];
 
 console.log(controversialPizzaToppings);
+
 
 /******************************************************
 * Exercise 5: Applying the spread operator on objects
@@ -77,3 +80,23 @@ myCar.model = 'q7';
 
 console.log('Original: ', car2);
 console.log('My Car: ', myCar);
+
+
+/******************************************************
+Exercise 6: Dynamic keys in objects
+******************************************************/
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+const userProfile = {};
+const propertyName = 'username';
+
+userProfile[propertyName] = 'Aline'; 
+
+console.log(userProfile);
+
+
+
