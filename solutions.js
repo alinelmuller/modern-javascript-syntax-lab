@@ -130,17 +130,32 @@ Exercise 8: Import and Export
 
 // Create a function that takes two parameters, `noun` and `adjective`, both with the following 
 //respective default values:
-
 // 1. `cat`
-
 // 2. `white`
-
 // The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
 
 // Your code here
-
 function describeAnimal(noun = 'cat', adjective = 'white'){
     console.log(`The ${noun} is ${adjective}.`); 
 };
 
 describeAnimal(); 
+
+/******************************************************
+Exercise 9: Ternary operator
+******************************************************/
+
+// Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+const pizzaFlavour = 'tasty'
+let flavour = pizzaFlavour === 'tasty' ? 'yum' : 'yuck';
+
+console.log(flavour);
