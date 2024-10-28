@@ -99,4 +99,9 @@ userProfile[propertyName] = 'Aline';
 console.log(userProfile);
 
 
+/******************************************************
+Exercise 7: Import and Export
+******************************************************/
+
+//Done
 
